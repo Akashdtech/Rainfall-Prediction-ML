@@ -1,6 +1,7 @@
 # Rainfall-Prediction-ML
 This repository contains a machine learning pipeline for predicting rainfall based on meteorological data. The project uses two classification models, XGBoost and Logistic Regression, to identify whether rainfall will occur (yes or no). The dataset, preprocessing steps, and model evaluations are documented to ensure reproducibility and transparency.
-Features
+
+Features:
 
     Dataset: Includes meteorological features such as wind direction, wind speed, and other climate indicators.
     Data Preprocessing:
@@ -15,7 +16,7 @@ Features
         Precision, Recall, F1-score (via Classification Report)
         Confusion Matrix
 
-Project Workflow
+Project Workflow:
 
     Data Exploration:
         Understand the dataset structure and statistical properties.
@@ -29,11 +30,11 @@ Project Workflow
     Performance Evaluation:
         Compare models using standard metrics.
 
-Visualizations
+Visualizations:
 
     Correlation Heatmap: Illustrates relationships between features.
     Count Plots and Box Plots: Depict class distributions and feature behaviors.
 
-Results
+Results:
 
 Both models demonstrated effective performance in predicting rainfall. XGBoost achieved higher accuracy and recall, making it better suited for this application.
